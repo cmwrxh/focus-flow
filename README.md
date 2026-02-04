@@ -10,3 +10,15 @@ A clean Pomodoro web timer built with HTML, CSS, and Vanilla JS. No frameworks �
 - Dark mode toggle (coming)
 
 Planned in 9 clean commits for portfolio.
+## Installation
+No install needed – open index.html in browser!
+
+## Usage
+- Click Start to begin 25-min Pomodoro.
+- Pause/Reset as needed.
+- Timer rings when done.
+
+## Demo
+![Demo](https://placehold.co/400x300?text=Focus+Flow+Demo)
+
+MIT licensed – fork and improve!
