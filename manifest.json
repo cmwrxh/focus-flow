@@ -1,0 +1,12 @@
+{
+  "short_name": "Focus Flow",
+  "name": "Focus Flow Pomodoro Timer",
+  "icons": [
+    {"src": "icon-192.png", "type": "image/png", "sizes": "192x192"},
+    {"src": "icon-512.png", "type": "image/png", "sizes": "512x512"}
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FF6347",
+  "background_color": "#F5F5F5"
+}
