@@ -1,0 +1,12 @@
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor temp files
+*.tmp
+*~
+
+# Build artifacts
+dist/
+build/
