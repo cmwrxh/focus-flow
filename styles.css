@@ -1,0 +1,51 @@
+:root {
+  --primary: #FF6347; /* Tomato red */
+  --background: #F5F5F5;
+  --text: #333;
+  --shadow: rgba(0,0,0,0.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow);
+}
+
+h1 {
+  color: var(--primary);
+}
+
+.timer-display {
+  margin: 1rem 0;
+}
+
+.timer {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.buttons button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background: var(--primary);
+  color: white;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  opacity: 0.9;
+}
