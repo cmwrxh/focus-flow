@@ -34,3 +34,10 @@ resetBtn.addEventListener('click', () => {
 });
 
 updateTimer();
+// Inside setInterval:
+const progress = (1 - time / (25 * 60)) * 360;
+document.querySelector('.timer-display').style.background = `conic-gradient(var(--primary) ${progress}deg, #ddd ${progress}deg)`;
+if (time <= 0) {
+  clearInterval(interval);
+  new Audio('https://assets.mixkit.co/sfx/preview/mixkit-simple-notification-bell-588.mp3').play();
+}
