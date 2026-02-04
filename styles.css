@@ -49,3 +49,18 @@ h1 {
 .buttons button:hover {
   opacity: 0.9;
 }
+.timer-display {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 1rem auto;
+  border-radius: 50%;
+  background: conic-gradient(var(--primary) 0deg, #ddd 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  font-size: 3rem;
+}
